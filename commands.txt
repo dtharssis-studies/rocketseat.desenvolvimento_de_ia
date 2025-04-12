@@ -1,0 +1,17 @@
+# Comandos Python para Ambientes Virtuais
+
+# Listar versões do Python instaladas
+python3 --version
+
+# Criar ambiente virtual
+python3 -m venv venv
+
+# Ativar ambiente virtual
+source venv/bin/activate
+
+# Desativar ambiente virtual
+deactivate
+
+# Listar pacotes instalados no ambiente virtual
+pip list
+
